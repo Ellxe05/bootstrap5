@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <title>Formatação de Colunas</title>
+    <style>
+        .row {
+            background-color: aliceblue;
+            height: 200px;
+        }
+        .col-3 {
+            background-color: pink;
+            border: 1px solid black;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container"> align items
+        <div class="row align-items-center">
+            <div class="col-3">Coluna 1</div>
+            <div class="col-3">Coluna 2</div>
+            <div class="col-3">Coluna 3</div>
+        </div>
+    </div>
+
+    <div class="container"> align self
+        <div class="row">
+            <div class="col-3 align-self-start">Coluna 1</div>
+            <div class="col-3 align-self-center">Coluna 2</div>
+            <div class="col-3 align-self-end">Coluna 3</div>
+        </div>
+    </div>
+
+    <div class="container"> xxl
+        <div class="row align-items-xxl-center">
+            <div class="col-3">Coluna 1</div>
+            <div class="col-3">Coluna 2</div>
+            <div class="col-3">Coluna 3</div>
+        </div>
+    </div>
+
+    <div class="container"> justify content 
+        <div class="row justify-content-evenly">
+            <div class="col-3">Coluna 1</div>
+            <div class="col-3">Coluna 2</div>
+            <div class="col-3">Coluna 3</div>
+        </div>
+    </div>
+
+    <div class="container"> w-100 
+        <div class="row align-items-center">
+            <div class="col-3">Coluna 1</div>
+            <div class="w-100"></div>
+            <div class="col-3">Coluna 2</div>
+            <div class="col-3">Coluna 3</div>
+        </div>
+    </div>
+
+    <div class="container"> order
+        <div class="row align-items-center">
+            <div class="col-3 order-last">Coluna 1</div>
+            <div class="col-3">Coluna 2</div>
+            <div class="col-3 order-first">Coluna 3</div>
+        </div>
+    </div>
+
+    <div class="container"> offset
+        <div class="row">
+            <div class="col-3 offset-1">Coluna 1</div>
+            <div class="col-3 offset-2">Coluna 2</div>
+            <div class="col-3">Coluna 3</div>
+        </div>
+    </div>
+
+    <div class="container"> ms-auto
+        <div class="row">
+            <div class="col-3 ms-auto">Coluna 1</div>
+            <div class="col-3 ms-auto">Coluna 2</div>
+            <!-- <div class="col-3">Coluna 3</div> -->
+        </div>
+    </div>
+
+    <div class="container"> mx-auto
+        <div class="row align-items-center">
+            <div class="col-3 mx-auto">Coluna 1</div>
+            <!-- <div class="col-3">Coluna 2</div> -->
+            <!-- <div class="col-3">Coluna 3</div> -->
+        </div>
+    </div>
+
+    <div class="container"> linhas diferentes
+        <!-- <div class="row align-items-center"> -->
+            <div class="col-3">Coluna 1</div>
+            <div class="col-3">Coluna 2</div>
+            <!-- <div class="col-3">Coluna 3</div> -->
+        <!-- </div> -->
+    </div>
+</body>
+</html>
